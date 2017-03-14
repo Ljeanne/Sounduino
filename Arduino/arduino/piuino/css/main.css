@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#note {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#note p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 80%;
+}
+
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#wrap {
+    display: none;
+}
